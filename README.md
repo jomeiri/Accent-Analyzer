@@ -20,32 +20,34 @@ Follow these steps to set up the project locally.
    cd accent-analyzer
 
 - **Create a Virtual Environment (recommended)**:
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-============================================================================================
-Install Dependencies:
+  ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+- **Install Dependencies**:
 Ensure Python 3.8+ is installed. Then, install the required packages:
-pip install -r requirements.txt
-============================================================================================
-Install ffmpeg:
-Windows:
+  ```bash
+   pip install -r requirements.txt
+- **Install ffmpeg**:
+- Windows:
 Download from ffmpeg.org.
 
 Extract and add the bin folder to your system PATH (e.g., C:\ffmpeg\bin).
 
 Alternatively, install via Chocolatey: choco install ffmpeg.
-
-MacOS:
+- MacOS:
 Install via Homebrew: brew install ffmpeg.
 
-Linux:
+- Linux:
 Install via package manager, e.g., sudo apt-get install ffmpeg (Ubuntu/Debian).
 
-Verify installation: ffmpeg -version.
-=============================================================================================
-Run the App
+- **Verify installation**:
+  ```bash
+  ffmpeg -version.
+
+- **Run the App**
 Start the Streamlit Server:
-streamlit run accent_analyzer.py
+  ```bash
+  streamlit run accent_analyzer.py
 This opens the app in your default browser at http://localhost:8501.
 
 Interact with the App:
