@@ -18,8 +18,8 @@ Follow these steps to set up the project locally.
    ```bash
    git clone <your-repo-url>
    cd accent-analyzer
-============================================================================================
-Create a Virtual Environment (recommended):
+
+- **Create a Virtual Environment (recommended)**:
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ============================================================================================
