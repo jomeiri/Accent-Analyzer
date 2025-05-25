@@ -1,1 +1,3 @@
-echo -e "ffmpeg\npkg-config\ncmake" > packages.txt
+echo -n "ffmpeg
+pkg-config
+cmake" > packages.txt
