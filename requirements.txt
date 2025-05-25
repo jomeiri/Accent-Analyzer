@@ -1,9 +1,7 @@
 streamlit==1.25.0
 moviepy==1.0.3
 whisper==1.1.10
-speechbrain==1.0.1
-torchaudio==2.7.0
-torch==2.7.0
+speechbrain==0.5.15
+torchaudio==2.0.2
 requests==2.31.0
 urllib3==1.26.18
-ffmpeg-python==0.2.0
