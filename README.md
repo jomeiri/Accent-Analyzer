@@ -1,6 +1,6 @@
 # English Accent Analyzer
 
-This project is a Streamlit web application that analyzes English accents from MP4 video files. It accepts a public MP4 video URL (direct MP4 or Google Drive shared link) or an uploaded MP4 file, extracts the audio, transcribes it using Whisper, and classifies the speaker's English accent using the ECAPA-TDNN model (`Jzuluaga/accent-id-commonaccent_ecapa`, 87% accuracy on 16 English accents). The app outputs the detected accent (e.g., "British", "American", "Australian") and a confidence score.
+This project is a Streamlit web application that analyzes English accents from MP4 video files. It accepts a public MP4 video URL (direct MP4 or Loom) or an uploaded MP4 file, extracts the audio, transcribes it using Whisper, and classifies the speaker's English accent using the ECAPA-TDNN model (`Jzuluaga/accent-id-commonaccent_ecapa`, 87% accuracy on 16 English accents). The app outputs the detected accent (e.g., "British", "American", "Australian") and a confidence score.
 
 ## Features
 - **Input Options**: Supports direct MP4 URLs, Google Drive shared links (set to "Anyone with the link"), and MP4 file uploads.
